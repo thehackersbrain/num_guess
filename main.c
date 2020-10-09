@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 
 int main()
 {
@@ -18,7 +20,7 @@ int main()
         }
         else if (guess < num)
         {
-            printf("Too Low, Try Something High...");
+            printf("Too Low, Try Something High...\n\n");
         }
         else
         {
